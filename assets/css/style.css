@@ -1,0 +1,10 @@
+.container {
+  background-image: url(../images/background.png);
+}
+.mcontent {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  width: 960px;
+  height: 498px;
+}
