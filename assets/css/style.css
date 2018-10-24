@@ -3,11 +3,51 @@ body {
 }
 header {
   position: fixed;
+  top: 0px;
   background-color: white;
   height: 80px;
   width: 100%;
+  border-bottom: #dddddd;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: #666666;
+  height: 60px;
+  width: 100%;
+  border-top: #4aaaa5;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+h6 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: #ffffff;
+  padding-top: 15px;
+}
+.tap {
+  height: 100%;
+  width: fit-content;
+  margin-left: 255px;
+  background-color: #4aaaa5;
+  position: relative;
   top: 0px;
 }
+
+.tap h1 {
+  font-family: serif;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+  padding-top: 20px;
+}
+
 .mcontent {
   margin-left: auto;
   margin-right: auto;
@@ -18,14 +58,6 @@ header {
   border-color: #dddddd;
   border-style: solid;
   border-width: 1.5px;
-}
-#myname {
-  font-family: serif;
-  color: #ffffff;
-  margin-left: 18%;
-  display: inline;
-  background-color: #4aaaa5;
-  background-size: 100px 200px;
 }
 
 #aboutme {
