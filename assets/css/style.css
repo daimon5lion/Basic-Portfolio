@@ -199,7 +199,7 @@ label {
   border-width: 3px;
   border-radius: 3px;
 }
-p {
+.ptext {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: #ffffff;
@@ -247,7 +247,9 @@ p {
   right: 398px;
 }
 
-a :hover {
+a:hover {
   background-color: #666666;
-  color: #160d0d;
+}
+#submit:hover {
+  background-color: #666666;
 }
